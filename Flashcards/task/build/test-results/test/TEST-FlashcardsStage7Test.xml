@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlashcardsStage7Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-03T16:39:06" hostname="manjaro-inspiron" time="0.104">
+  <properties/>
+  <testcase name="start" classname="FlashcardsStage7Test" time="0.104"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> export
+File name:
+> capitals.txt
+0 cards have been saved.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> export
+File name:
+> capitalsNew.txt
+0 cards have been saved.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+Bye bye!
+?[1;31m
+Start test 2?[0m
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> add
+The card:
+> France
+The definition of the card:
+> Paris
+The pair ("France":"Paris") has been added.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> add
+The card:
+> Russia
+The definition of the card:
+> Moscow
+The pair ("Russia":"Moscow") has been added.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> ask
+How many times to ask?
+> 3
+Print the definition of "France":
+> France
+Wrong answer. The correct one is "Paris".
+Print the definition of "France":
+> ??
+Wrong answer. The correct one is "Paris".
+Print the definition of "France":
+> 
+Wrong answer. The correct one is "Paris".
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+Bye bye!
+2 cards have been saved.
+?[1;31m
+Start test 3?[0m
+2 cards have been loaded.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> add
+The card:
+> Japan
+The definition of the card:
+> Tokyo
+The pair ("Japan":"Tokyo") has been added.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> ask
+How many times to ask?
+> 3
+Print the definition of "France":
+> Moscow
+Wrong answer. The correct one is "Paris", you've just written the definition of "Russia".
+Print the definition of "Japan":
+> Paris
+Wrong answer. The correct one is "Tokyo", you've just written the definition of "France".
+Print the definition of "Japan":
+> Tokyo
+Correct answer.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+Bye bye!
+3 cards have been saved.
+?[1;31m
+Start test 4?[0m
+3 cards have been loaded.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> ask
+How many times to ask?
+> 3
+Print the definition of "Russia":
+> Moscow
+Correct answer.
+Print the definition of "France":
+> Paris
+Correct answer.
+Print the definition of "Russia":
+> Tokyo
+Wrong answer. The correct one is "Moscow", you've just written the definition of "Japan".
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> remove
+The card:
+> Japan
+The card has been removed.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+Bye bye!
+2 cards have been saved.
+?[1;31m
+Start test 5?[0m
+2 cards have been loaded.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+Bye bye!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

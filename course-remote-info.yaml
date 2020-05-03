@@ -1,0 +1,130 @@
+hyperskill_project:
+  id: 83
+  ide_files: https://stepik.org/media/attachments/lesson/263287/additional_files.json
+  is_template_based: false
+  use_ide: true
+stages:
+- id: 457
+  step: 7486
+- id: 458
+  step: 7487
+- id: 459
+  step: 7488
+- id: 460
+  step: 7489
+- id: 461
+  step: 7490
+- id: 462
+  step: 7491
+- id: 463
+  step: 7492
+topics:
+  0:
+  - title: Introduction to Kotlin
+    theory_id: 4350
+  - title: Basic literals
+    theory_id: 4351
+  - title: Overview of the basic program
+    theory_id: 4362
+  - title: Values and variables
+    theory_id: 4371
+  - title: Data types
+    theory_id: 4388
+  - title: Coding style conventions
+    theory_id: 4419
+  - title: Naming variables
+    theory_id: 4389
+  - title: Standard output
+    theory_id: 4425
+  1:
+  - title: Comments
+    theory_id: 4406
+  - title: Arithmetic operations
+    theory_id: 4472
+  - title: Boolean and logical operations
+    theory_id: 4515
+  - title: Invoking functions
+    theory_id: 4575
+  - title: Standard input
+    theory_id: 4445
+  - title: Integers in action
+    theory_id: 4488
+  - title: Relational operators
+    theory_id: 4525
+  - title: Characters
+    theory_id: 4680
+  - title: Strings
+    theory_id: 4540
+  - title: If expression
+    theory_id: 4625
+  2:
+  - title: Units of information
+    theory_id: 6865
+  - title: Binary numbers
+    theory_id: 5544
+  - title: The classification of basic types
+    theory_id: 4455
+  - title: Arrays
+    theory_id: 4564
+  - title: Ranges
+    theory_id: 4633
+  - title: Repeating blocks
+    theory_id: 4643
+  - title: For loop and ranges
+    theory_id: 4652
+  - title: For loop and arrays
+    theory_id: 4657
+  3:
+  - title: Declaring functions
+    theory_id: 4580
+  - title: String templates
+    theory_id: 4547
+  - title: Mutable Map
+    theory_id: 8021
+  - title: What is an exception
+    theory_id: 7243
+  - title: Taming exceptions
+    theory_id: 7601
+  4:
+  - title: Floating-point types
+    theory_id: 4502
+  - title: Objects
+    theory_id: 6773
+  - title: The Math library
+    theory_id: 4563
+  - title: Functions as objects
+    theory_id: 5991
+  - title: Lambda expressions
+    theory_id: 6154
+  - title: Reading files
+    theory_id: 6351
+  5:
+  - title: Computer algorithms
+    theory_id: 4953
+  - title: The big O notation
+    theory_id: 4991
+  - title: Data structures
+    theory_id: 5161
+  - title: Pseudocode basics
+    theory_id: 8228
+  - title: Complex constructions in pseudocode
+    theory_id: 8233
+  - title: Fixed-size array
+    theory_id: 7255
+  - title: Dynamic array
+    theory_id: 5357
+  6:
+  - title: Introduction to OOP
+    theory_id: 3614
+  - title: Declaring classes
+    theory_id: 6200
+  - title: Constructors
+    theory_id: 6237
+  - title: Member functions
+    theory_id: 6364
+  - title: Inheritance
+    theory_id: 7770
+  - title: Overriding functions
+    theory_id: 7884
+  - title: Data class
+    theory_id: 8526
